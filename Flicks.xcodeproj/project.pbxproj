@@ -13,6 +13,17 @@
 		1D0E39CB1E3683FB00B8C436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E39C91E3683FB00B8C436 /* Main.storyboard */; };
 		1D0E39CD1E3683FB00B8C436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E39CC1E3683FB00B8C436 /* Assets.xcassets */; };
 		1D0E39D01E3683FB00B8C436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E39CE1E3683FB00B8C436 /* LaunchScreen.storyboard */; };
+		1D0E39D91E3690C200B8C436 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E39D81E3690C200B8C436 /* MovieCell.m */; };
+		1D0E39DB1E36978000B8C436 /* dachshund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E39DA1E36978000B8C436 /* dachshund.jpg */; };
+		1D0E39DE1E36AF1F00B8C436 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E39DD1E36AF1F00B8C436 /* MovieModel.m */; };
+		1D60EF4E1E37FA6A006A6C75 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D60EF4D1E37FA6A006A6C75 /* DetailViewController.m */; };
+		1D60EF7A1E3A87DF006A6C75 /* MoviePosterCollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D60EF791E3A87DF006A6C75 /* MoviePosterCollViewCell.m */; };
+		1D60EF811E3AE886006A6C75 /* List-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D60EF7D1E3AE886006A6C75 /* List-48.png */; };
+		1D60EF821E3AE886006A6C75 /* Grid-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D60EF7E1E3AE886006A6C75 /* Grid-48.png */; };
+		1D60EF851E3AECF9006A6C75 /* Like Filled-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D60EF831E3AECF9006A6C75 /* Like Filled-30.png */; };
+		1D60EF861E3AECF9006A6C75 /* Movie Projector-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D60EF841E3AECF9006A6C75 /* Movie Projector-30.png */; };
+		1D60EF8A1E3BF5E3006A6C75 /* Like Filled-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D60EF891E3BF5E3006A6C75 /* Like Filled-10.png */; };
+		2F00A4FBEDA2CED0EFF96EA0 /* libPods-Flicks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C201B3C34DE245F2E1E8003 /* libPods-Flicks.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,23 @@
 		1D0E39CC1E3683FB00B8C436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0E39CF1E3683FB00B8C436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0E39D11E3683FB00B8C436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0E39D71E3690C200B8C436 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		1D0E39D81E3690C200B8C436 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		1D0E39DA1E36978000B8C436 /* dachshund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dachshund.jpg; sourceTree = "<group>"; };
+		1D0E39DC1E36AF1F00B8C436 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		1D0E39DD1E36AF1F00B8C436 /* MovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		1D60EF4C1E37FA6A006A6C75 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1D60EF4D1E37FA6A006A6C75 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1D60EF781E3A87DF006A6C75 /* MoviePosterCollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePosterCollViewCell.h; sourceTree = "<group>"; };
+		1D60EF791E3A87DF006A6C75 /* MoviePosterCollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePosterCollViewCell.m; sourceTree = "<group>"; };
+		1D60EF7D1E3AE886006A6C75 /* List-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List-48.png"; sourceTree = "<group>"; };
+		1D60EF7E1E3AE886006A6C75 /* Grid-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grid-48.png"; sourceTree = "<group>"; };
+		1D60EF831E3AECF9006A6C75 /* Like Filled-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-30.png"; sourceTree = "<group>"; };
+		1D60EF841E3AECF9006A6C75 /* Movie Projector-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movie Projector-30.png"; sourceTree = "<group>"; };
+		1D60EF891E3BF5E3006A6C75 /* Like Filled-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-10.png"; sourceTree = "<group>"; };
+		2452EC45B8C446DF6B98796F /* Pods-Flicks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flicks/Pods-Flicks.debug.xcconfig"; sourceTree = "<group>"; };
+		4C201B3C34DE245F2E1E8003 /* libPods-Flicks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flicks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F68BF447A27E36CCB8050EB /* Pods-Flicks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flicks/Pods-Flicks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F00A4FBEDA2CED0EFF96EA0 /* libPods-Flicks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,8 @@
 			children = (
 				1D0E39BF1E3683FB00B8C436 /* Flicks */,
 				1D0E39BE1E3683FB00B8C436 /* Products */,
+				7FAB8BB8AC3C13384DF9C20F /* Pods */,
+				6CB993E6FBADE3A270D79235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,7 +97,21 @@
 				1D0E39CC1E3683FB00B8C436 /* Assets.xcassets */,
 				1D0E39CE1E3683FB00B8C436 /* LaunchScreen.storyboard */,
 				1D0E39D11E3683FB00B8C436 /* Info.plist */,
+				1D60EF7D1E3AE886006A6C75 /* List-48.png */,
+				1D60EF7E1E3AE886006A6C75 /* Grid-48.png */,
+				1D0E39DA1E36978000B8C436 /* dachshund.jpg */,
+				1D60EF831E3AECF9006A6C75 /* Like Filled-30.png */,
+				1D60EF891E3BF5E3006A6C75 /* Like Filled-10.png */,
+				1D60EF841E3AECF9006A6C75 /* Movie Projector-30.png */,
 				1D0E39C01E3683FB00B8C436 /* Supporting Files */,
+				1D0E39D71E3690C200B8C436 /* MovieCell.h */,
+				1D0E39D81E3690C200B8C436 /* MovieCell.m */,
+				1D0E39DC1E36AF1F00B8C436 /* MovieModel.h */,
+				1D0E39DD1E36AF1F00B8C436 /* MovieModel.m */,
+				1D60EF4C1E37FA6A006A6C75 /* DetailViewController.h */,
+				1D60EF4D1E37FA6A006A6C75 /* DetailViewController.m */,
+				1D60EF781E3A87DF006A6C75 /* MoviePosterCollViewCell.h */,
+				1D60EF791E3A87DF006A6C75 /* MoviePosterCollViewCell.m */,
 			);
 			path = Flicks;
 			sourceTree = "<group>";
@@ -79,6 +124,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6CB993E6FBADE3A270D79235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C201B3C34DE245F2E1E8003 /* libPods-Flicks.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FAB8BB8AC3C13384DF9C20F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2452EC45B8C446DF6B98796F /* Pods-Flicks.debug.xcconfig */,
+				6F68BF447A27E36CCB8050EB /* Pods-Flicks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D0E39D41E3683FB00B8C436 /* Build configuration list for PBXNativeTarget "Flicks" */;
 			buildPhases = (
+				00B1F3FABE3E02CB93262B30 /* [CP] Check Pods Manifest.lock */,
 				1D0E39B91E3683FB00B8C436 /* Sources */,
 				1D0E39BA1E3683FB00B8C436 /* Frameworks */,
 				1D0E39BB1E3683FB00B8C436 /* Resources */,
+				738B3EEDF0D0A0865954DA6F /* [CP] Embed Pods Frameworks */,
+				B6326E3CB022DBA18D269488 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +202,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D60EF851E3AECF9006A6C75 /* Like Filled-30.png in Resources */,
+				1D60EF861E3AECF9006A6C75 /* Movie Projector-30.png in Resources */,
 				1D0E39D01E3683FB00B8C436 /* LaunchScreen.storyboard in Resources */,
+				1D60EF8A1E3BF5E3006A6C75 /* Like Filled-10.png in Resources */,
 				1D0E39CD1E3683FB00B8C436 /* Assets.xcassets in Resources */,
+				1D0E39DB1E36978000B8C436 /* dachshund.jpg in Resources */,
+				1D60EF821E3AE886006A6C75 /* Grid-48.png in Resources */,
 				1D0E39CB1E3683FB00B8C436 /* Main.storyboard in Resources */,
+				1D60EF811E3AE886006A6C75 /* List-48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B1F3FABE3E02CB93262B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		738B3EEDF0D0A0865954DA6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flicks/Pods-Flicks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6326E3CB022DBA18D269488 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flicks/Pods-Flicks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D0E39B91E3683FB00B8C436 /* Sources */ = {
@@ -152,7 +271,11 @@
 			files = (
 				1D0E39C81E3683FB00B8C436 /* ViewController.m in Sources */,
 				1D0E39C51E3683FB00B8C436 /* AppDelegate.m in Sources */,
+				1D60EF7A1E3A87DF006A6C75 /* MoviePosterCollViewCell.m in Sources */,
+				1D0E39D91E3690C200B8C436 /* MovieCell.m in Sources */,
+				1D0E39DE1E36AF1F00B8C436 /* MovieModel.m in Sources */,
 				1D0E39C21E3683FB00B8C436 /* main.m in Sources */,
+				1D60EF4E1E37FA6A006A6C75 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +393,7 @@
 		};
 		1D0E39D51E3683FB00B8C436 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2452EC45B8C446DF6B98796F /* Pods-Flicks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flicks/Info.plist;
@@ -281,6 +405,7 @@
 		};
 		1D0E39D61E3683FB00B8C436 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F68BF447A27E36CCB8050EB /* Pods-Flicks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flicks/Info.plist;
@@ -309,6 +434,7 @@
 				1D0E39D61E3683FB00B8C436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
